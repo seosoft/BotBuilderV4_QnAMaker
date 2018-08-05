@@ -4,7 +4,7 @@
 
 ハンズオンは以下の手順で進めます。
 
-1. Microsoft Azure のアカウントを準備する
+1. [**Microsoft Azure のアカウントを準備する**](01_AzureAccount.md)
 2. 開発環境を準備する
 3. QnA Maker のナレッジベースを作成する
 4. Bot アプリケーションを作成する
@@ -15,4 +15,3 @@
 <img src="Assets/Images/qnamaker_edit.png" width="420px" />
 
 <img src="Assets/Images/emulator_demo.png" width="420px" />
-
