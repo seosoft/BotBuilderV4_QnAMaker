@@ -13,6 +13,9 @@ Azure アカウントを持っていない方は、無償のアカウントを�
 
 <img src="Assets/Images/azure_freeaccount.png" width="420px" />
 
+<br /><br />
+
+---
 1. **自分の情報** を入力して **次へ** をクリックします。
 
     <img src="Assets/Images/azure_signup_info.png" width="420px" />
