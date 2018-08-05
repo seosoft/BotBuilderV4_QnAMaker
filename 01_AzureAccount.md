@@ -11,19 +11,19 @@ Azure アカウントを持っていない方は、無償のアカウントを�
 無償アカウントは [Azure のページ](https://azure.microsoft.com/ja-jp/free/) で作成できます。  
 途中でクレジットカード番号の入力などが必要ですが、無償枠を使い切っても課金されることはありません。（本格的に Azure を使用するためには、明示的に有効化する必要があります）
 
-<img src="Assets/Images/azure_freeaccount.png" width="420px" />
+<img src="Assets/Images/01/azure_freeaccount.png" width="420px" />
 
 <br /><br />
 
 ---
 1. **自分の情報** を入力して **次へ** をクリックします。
 
-    <img src="Assets/Images/azure_signup_info.png" width="420px" />
+    <img src="Assets/Images/01/azure_signup_info.png" width="420px" />
 
 2. **テキストメッセージを送信** または **電話する** で確認コードを要求します。  
 確認コードが送信されてきたら、入力して **コードの確認** をクリックします。
 
-    <img src="Assets/Images/azure_signup_smsconfirm.png" width="420px" />
+    <img src="Assets/Images/01/azure_signup_smsconfirm.png" width="420px" />
 
 3. **カードによる本人確認** でクレジットカード情報を入力します。  
 無償枠を使い切っても、明示的に有効にしない限りは課金されません。

@@ -13,6 +13,6 @@
 
 <br /><br />
 
-<img src="Assets/Images/qnamaker_edit.png" width="420px" />
+<img src="Assets/Images/00/qnamaker_edit.png" width="420px" />
 
-<img src="Assets/Images/emulator_demo.png" width="420px" />
+<img src="Assets/Images/00/emulator_demo.png" width="420px" />

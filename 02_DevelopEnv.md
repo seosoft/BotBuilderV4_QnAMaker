@@ -12,7 +12,7 @@
 有償のライセンスをお持ちの場合は、該当するエディションのインストーラーをダウンロードします。  
 個人利用の PC の場合は、Community Edition のインストーラーをダウンロードします。
 
-    <img src="Assets/Images/vs_download_installer.png" width="420px" />
+    <img src="Assets/Images/02/vs_download_installer.png" width="420px" />
 
 2. Visual Studio 2017 をインストールします。  
 ワークロードは以下を選択します。（それ以外を追加で選択してもかまいません）  
@@ -20,14 +20,14 @@
     - ASP .NET と Web 開発
 
     <br />
-    <img src="Assets/Images/vs_installer.png" width="420px" />
+    <img src="Assets/Images/02/vs_installer.png" width="420px" />
 
 3. Bot Builder V4 SDK をインストールします。  
 Visual Studio を起動して、**ツール** - **拡張機能と更新プログラム** を選択します。  
 **オンライン** を選択してから、検索ボックスに **"bot builder v4"** と入力して、**Bot Builder V4 SDK Template** をダウンロードします。  
 ダウンロードが完了したら、Visual Studio をいったん終了して、再起動します。
 
-    <img src="Assets/Images/vs_install_botext.png" width="420px" />
+    <img src="Assets/Images/02/vs_install_botext.png" width="420px" />
 
 4. Bot Builder V4 SDK のインストールを確認します。  
 **ファイル** - **新規作成** - **プロジェクト** で新しいプロジェクトを開きます。  
@@ -44,14 +44,14 @@ Bot アプリケーションのデバッグのためには **Bot Framework Emula
 [Bot Framework Emulator](https://github.com/Microsoft/BotFramework-Emulator) から [**ダウンロード**](https://github.com/Microsoft/BotFramework-Emulator/releases) ページを開きます。  
 最新のインストーラーをダウンロードします。拡張子 exe のものが Windows 用のインストーラーです。
 
-    <img src="Assets/Images/bf_page.png" width="420px" />
-    <img src="Assets/Images/bf_download_page.png" width="420px" />
+    <img src="Assets/Images/02/bf_page.png" width="420px" />
+    <img src="Assets/Images/02/bf_download_page.png" width="420px" />
 
 2. Bot Framework Emulator のインストーラーを実行します。
 3. Bot Framework Emulator の実行を確認します。  
 インストールに成功すると自動的に Emulator が起動します。
 
-    <img src="Assets/Images/bf_page.png" width="420px" />
+    <img src="Assets/Images/02/bf_emulator_app.png" width="420px" />
 
 ---
 
