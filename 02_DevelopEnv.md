@@ -33,7 +33,25 @@ Visual Studio を起動して、**ツール** - **拡張機能と更新プログ
 **ファイル** - **新規作成** - **プロジェクト** で新しいプロジェクトを開きます。  
 **Visual C#** を選択して、検索ボックスに **"bot"** と入力します。**Bot Builder Echo Bot V4** が表示されれば、SDK のインストールに成功しています。
 
-    <img src="Assets/Images/vs_botext_check.png" width="420px" />
+
+---
+
+## Bot Framework Emulator (V4 Preview) のインストール
+
+Bot アプリケーションのデバッグのためには **Bot Framework Emulator** が便利です。
+
+1. Bot Framework Emulator をダウンロードします。  
+[Bot Framework Emulator](https://github.com/Microsoft/BotFramework-Emulator) から [**ダウンロード**](https://github.com/Microsoft/BotFramework-Emulator/releases) ページを開きます。  
+最新のインストーラーをダウンロードします。拡張子 exe のものが Windows 用のインストーラーです。
+
+    <img src="Assets/Images/bf_page.png" width="420px" />
+    <img src="Assets/Images/bf_download_page.png" width="420px" />
+
+2. Bot Framework Emulator のインストーラーを実行します。
+3. Bot Framework Emulator の実行を確認します。  
+インストールに成功すると自動的に Emulator が起動します。
+
+    <img src="Assets/Images/bf_page.png" width="420px" />
 
 ---
 
