@@ -107,8 +107,11 @@ Azure ポータルで **リソースグループ** - **AnimalQnA** (今回作成
 
     <img src="Assets/Images/03/qnamaker_create_kb_add_url.png" width="420px" />
 
-    animal_qa.tsv はあらかじめ用意した Q&A ファイルです。
-    UTF-8 の TSV ファイルです。ファイルの内容を確認したい場合は、ブラウザーで新しいタブを開き、[https://raw.githubusercontent.com/seosoft/BotBuilderV4_QnAMaker/master/SampleData/animal_qa.tsv](https://raw.githubusercontent.com/seosoft/BotBuilderV4_QnAMaker/master/SampleData/animal_qa.tsv) に接続してみてください。
+    animal_qa.tsv はあらかじめ用意した Q&A ファイル（UTF-8 の TSV）です。
+
+    <img src="Assets/Images/03/animal_qa_tsv.png" width="420px" />
+
+    ファイルの内容を確認したい場合は、ブラウザーで新しいタブを開き、[https://raw.githubusercontent.com/seosoft/BotBuilderV4_QnAMaker/master/SampleData/animal_qa.tsv](https://raw.githubusercontent.com/seosoft/BotBuilderV4_QnAMaker/master/SampleData/animal_qa.tsv) に接続してみてください。
 
 5. 最後に **Create your KB** ボタンをクリックします。  
 少し待つと、AnimalQnA ナレッジベースが完成します。
@@ -120,4 +123,4 @@ Azure ポータルで **リソースグループ** - **AnimalQnA** (今回作成
 
 以上でナレッジベースが完成しました。
 
-次のステップでは、作成したナレッジベースをテストて、クラウドに発行します。
+[**次のステップ**](04_TestQnaMaker.md) では、作成したナレッジベースをテストして、クラウドに発行します。
