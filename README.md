@@ -9,7 +9,7 @@
 3. [**QnA Maker でナレッジベースを作成する**](03_QnaMaker.md)
 4. [**QnA Maker でナレッジベースのテストとクラウドへの発行を行う**](04_TestQnaMaker.md)
 5. [**Bot アプリケーションを作成する** (REST API 呼び出し版)](05_BuildBotApp.md)
-6. Emulator で動作を確認する
+6. [**Emulator で動作を確認する**](06_BfEmulator.md)
 
 <br /><br />
 
