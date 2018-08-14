@@ -1,6 +1,7 @@
 # 開発環境を準備する
 
-このハンズオンでは Bot アプリケーションを **Visual Studio 2017** および **Bot Builder V4 SDK** を使用します。
+このハンズオンでは Bot アプリケーションを **Visual Studio 2017** および **Bot Builder V4 SDK** を使用します。  
+また QnA Maker の Web サービスに接続するために、[**ngrok**](https://ngrok.com/) が必要です。
 
 以下ではこれらをインストールして、開発環境を準備します。
 
@@ -33,7 +34,6 @@ Visual Studio を起動して、**ツール** - **拡張機能と更新プログ
 **ファイル** - **新規作成** - **プロジェクト** で新しいプロジェクトを開きます。  
 **Visual C#** を選択して、検索ボックスに **"bot"** と入力します。**Bot Builder Echo Bot V4** が表示されれば、SDK のインストールに成功しています。
 
-
 ---
 
 ## Bot Framework Emulator (V4 Preview) のインストール
@@ -52,6 +52,37 @@ Bot アプリケーションのデバッグのためには **Bot Framework Emula
 インストールに成功すると自動的に Emulator が起動します。
 
     <img src="Assets/Images/02/bf_emulator_app.png" width="420px" />
+
+---
+
+## ngrok のインストール
+
+Bot Framework Emulator を使用して Bot アプリケーションの動作確認をする場合、外部の Web サービス (今回は QnA Maker のナレッジベースの Web サービス) を呼び出す際に、ngrok が必要です。
+
+1. [**ngrok**](https://ngrok.com/) のサイトに接続します。  
+接続したら、**Download** をクリックします。
+
+    <img src="Assets/Images/02/ngrok_click_download.png" width="420px" />
+
+2. **Download for Windows** をクリックして、ngrok をダウンロードします。
+
+    <img src="Assets/Images/02/ngrok_download_for_windows.png" width="420px" />
+
+3. zip ファイル内に **ngrok.exe** があるので、ローカルの任意のフォルダーに展開します。  
+インストーラーなどはないので、exe ファイルを直接コピーするだけです。
+
+    <img src="Assets/Images/02/ngron_copy.png" width="420px" />
+
+
+4. Bot Framework Emulator を起動して **Emulator Settings** を開きます。  
+**Path to ngrok** の **Browse** ボタンをクリックして、ローカルにコピーした **ngrok.exe** を選択します。
+
+    <img src="Assets/Images/02/bfemulator_set_ngrok.png" width="420px" />
+
+5. **Bypass ngrok for local addresses** のチェックをオフにします。  
+最後に **Save** をクリックして、設定を保存します。
+
+    <img src="Assets/Images/02/bfemulator_bypass_ngrok.png" width="420px" />
 
 ---
 
